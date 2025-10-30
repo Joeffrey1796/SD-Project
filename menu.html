@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Menu | Starbrew Coffee</title>
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="icon" type="image/jpg" href="src/assets/logo.jpg" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html">Sideway's Cafe</a>
+      </div>
+
+      <!-- Hamburger Button -->
+      <button class="menu-toggle" aria-label="Toggle menu">
+        ☰
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Menu Header -->
+
+  <section class="menu-header">
+    <h1>Our Menu</h1>
+    <p>Discover our handcrafted drinks — from timeless classics to refreshing blends.</p>
+
+```
+<!-- Filters -->
+<div class="menu-filters">
+  <input type="text" id="search-bar" placeholder="Search drinks..." />
+  <select id="category-filter">
+    <option value="all">All Categories</option>
+    <option value="Coffee">Coffee</option>
+    <option value="Tea">Tea</option>
+    <option value="Frappuccino">Frappuccino</option>
+    <option value="Refresher">Refresher</option>
+    <option value="Pastry">Pastry</option>
+  </select>
+</div>
+```
+
+  </section>
+
+  <!-- Menu Grid -->
+
+  <section class="menu-grid" id="menu-grid">
+    <!-- Items dynamically loaded here -->
+  </section>
+
+  <!-- Todo Back to top -->
+  <!-- Footer -->
+
+  <footer class="footer">
+    <p>© 2025 Mga masarap na kape nila Princess®. For educational use only.</p>
+  </footer>
+
+  <script src="src/js/main.js"></script>
+  <script src="src/js/menu.js"></script>
+  <script>
+    // Initialize the menu once the DOM is fully loaded
+    document.addEventListener("DOMContentLoaded", () => {
+      loadMenuItems();
+    });
+  </script>
+
+</body>
+</html>

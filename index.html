@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sideway's cafe</title>
+  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="icon" type="image/jpg" href="src/assets/logo.jpg" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html">Sideway's Cafe</a>
+      </div>
+
+      <!-- Hamburger Button -->
+      <button class="menu-toggle" aria-label="Toggle menu">
+        ☰
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Crafted Coffee, Comfort in Every Cup</h1>
+      <p>Experience your favorite brew in a cozy atmosphere inspired by the essence of community and flavor.</p>
+      <a href="menu.html" class="btn">View Menu</a>
+    </div>
+  </section>
+
+  <!-- ===== DETAILS SECTION (alternating layout) ===== -->
+  <section class="details">
+    <div class="detail-card">
+      <div class="detail-image">
+        <img src="src/assets/beans.jpg" alt="Arabica Beans">
+      </div>
+      <div class="detail-text">
+        <h2>Made with 100% Arabica Beans</h2>
+        <p>Our espresso-based beverages are made with carefully sourced 100% Arabica beans for a smooth, rich flavor in every cup.</p>
+      </div>
+    </div>
+
+    <div class="detail-card reverse">
+      <div class="detail-image">
+        <img src="src/assets/freshness.jpg" alt="Freshly Brewed">
+      </div>
+      <div class="detail-text">
+        <h2>Crafted Fresh Daily</h2>
+        <p>Every drink is brewed fresh and handcrafted by our skilled baristas, ensuring quality and taste you can savor.</p>
+      </div>
+    </div>
+
+    <div class="detail-card">
+      <div class="detail-image">
+        <img src="src/assets/Cozy.jpg" alt="Cozy">
+      </div>
+      <div class="detail-text">
+        <h2>Your Daily Escape</h2>
+        <p>Step into Sideway’s Café — a warm, relaxing space where every cup offers a moment of peace, comfort, and connection.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- todo Highlighted Review section -->
+  <section class="reviews-section">
+    <h2 class="reviews-title">What Our Customers Say</h2>
+    <div class="reviews-carousel-container">
+      <button class="carousel-btn prev" aria-label="Previous review">❮</button>
+      <div class="reviews-carousel" id="reviews-carousel">
+        <!--* Reviews dynamically loaded here -->
+      </div>
+      <button class="carousel-btn next" aria-label="Next review">❯</button>
+    </div>
+  </section>
+
+
+<!-- 2x6 Highlight picture of the shop -->
+<section class="highlight-gallery">
+  <h2 class="gallery-title">A Glimpse of Sideway’s Café</h2>
+  <div class="gallery-grid">
+    <img src="src/assets/gallery/highlight_1.jpg" alt="Sideway’s Café Interior 1">
+    <img src="src/assets/gallery/highlight_2.jpg" alt="Barista at the counter">
+    <img src="src/assets/gallery/highlight_3.jpg" alt="Cozy seating area">
+    <img src="src/assets/gallery/highlight_4.jpg" alt="Café exterior view">
+    <img src="src/assets/gallery/highlight_5.jpg" alt="Latte art close-up">
+    <img src="src/assets/gallery/highlight_6.jpg" alt="Customer enjoying coffee">
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2025 Sideway's Coffee. Inspired by Starbucks®. For educational use only.</p>
+</footer>
+
+<!-- Script -->
+  <script src="src/js/reviews.js"></script>
+  <script src="src/js/main.js"></script>
+
+</body>
+</html>
+

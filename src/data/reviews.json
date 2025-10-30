@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Alyssa M.",
+    "rating": 5,
+    "review": "The cappuccino was so smooth and comforting! The cozy ambiance made my morning.",
+    "date": "2025-09-18"
+  },
+  {
+    "name": "Rico S.",
+    "rating": 4,
+    "review": "Tried the caramel macchiato — sweet but balanced. Loved the latte art!",
+    "date": "2025-09-22"
+  },
+  {
+    "name": "Mika M.",
+    "rating": 5,
+    "review": "Perfect spot to relax. The aroma alone makes you want to stay longer.",
+    "date": "2025-10-02"
+  },
+  {
+    "name": "Dave",
+    "rating": 4,
+    "review": "Yummerz.",
+    "date": "2025-02-12"
+  },
+  {
+    "name": "Sarah C.",
+    "rating": 5,
+    "review": "Friendly baristas and smooth iced mocha! Great vibes all around.",
+    "date": "2025-10-20"
+  },{
+    "name": "Princess Ann",
+    "rating": 5,
+    "review": "Kasing sarap niya yung kape",
+    "date": "2025-10-28"
+
+  },{
+    "name": "Jake T.",
+    "rating": 4,
+    "review": "Espresso was rich and bold. Definitely coming back for more.",
+    "date": "2025-10-12"
+  }
+]

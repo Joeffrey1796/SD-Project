@@ -64,7 +64,7 @@ console.log("menu.js opens cuhh");
       card.innerHTML = `
         <img src="${item.image}" alt="${escapeHtml(item.name)}" class="menu-img">
         <div class="menu-info">
-          <h3>${escapeHtml(item.name)}</h3>
+          <h3 class="menu-name">${escapeHtml(item.name)}</h3>
           <p class="menu-desc">${escapeHtml(item.description)}</p>
           <p class="menu-price">${item.price} ${escapeHtml(item.currency)}</p>
           <div class="menu-tags">

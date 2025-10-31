@@ -6,6 +6,9 @@
   <title>Contact Us | Coffee Haven</title>
   <link rel="stylesheet" href="src/css/style.css" />
   <link rel="icon" type="image/jpg" href="src/assets/logo.jpg" />
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
 </head>
 <body>
   <!-- Header -->
@@ -31,30 +34,47 @@
   </header>
 
   <!-- Hero Section -->
-  <section class="hero contact-hero">
-    <div class="hero-content">
-      <h1>Contact Us</h1>
-      <p>We’d love to hear from you — let’s stay connected.</p>
+  <section class="feedback-hero">
+    <div class="hero-overlay">
+      <div class="feedback-box">
+        <h1>We’d Love Your Feedback</h1>
+        <p class="subtitle">Your thoughts help us brew better experiences.</p>
+
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="from_name" placeholder="Enter your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your feedback..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-send">Send Message</button>
+        </form>
+      </div>
     </div>
   </section>
+
 
   <!-- Contact Info Section -->
   <section class="contact-info">
     <div class="container">
       <div class="contact-card">
         <h2>Visit Us</h2>
-        <p>123 Brew Street, Makati City, Philippines</p>
+        <p>address</p>
       </div>
 
       <div class="contact-card">
         <h2>Email</h2>
-        <p><a href="mailto:hello@coffeehaven.ph">hello@coffeehaven.ph</a></p>
+        <p><a href="mailto:sidewayscafe2025@gmail.com">sidewayscafe2025@gmail.com</a></p>
       </div>
 
       <div class="contact-card">
         <h2>Phone</h2>
         <p><a href="tel:+639123456789">+63 912 345 6789</a></p>
-      </div>
+      </div>  
 
       <div class="contact-card">
         <h2>Follow Us</h2>
@@ -72,6 +92,16 @@
     <p>&copy; 2025 Coffee Haven | Crafted with ❤️ for coffee lovers</p>
   </footer>
 
+  <!-- Custom Alert -->
+  <div id="customAlert" class="custom-alert">
+    <div class="alert-content">
+      <h2></h3>
+      <p class=""></p>
+      <button class="btn-send alert-close" onclick="closeCustomAlert()">OK</button>
+    </div>
+  </div>
+
   <script src="src/js/main.js"></script>
+  <script src="src/js/contact_feedback.js"></script>
 </body>
 </html>

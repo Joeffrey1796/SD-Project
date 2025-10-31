@@ -308,7 +308,7 @@
     "ingredients": ["Strawberry", "Lychee", "Sparkling Water", "Sugar Syrup", "Ice"],
     "allergens": [],
     "calories": 110,
-    "tags": ["sweet", "premium", "instagrammable"],
+    "tags": ["sweet", "premium", "fruity"],
     "image": "src/assets/menu/drinks/refresher/strawberry_lychee_fizz.png"
   },
   {
@@ -336,7 +336,7 @@
     "ingredients": ["Mango", "Pineapple", "Citrus", "Water", "Ice"],
     "allergens": [],
     "calories": 120,
-    "tags": ["best-seller", "tropical", "vibrant"],
+    "tags": ["best-seller",  "vibrant"],
     "image": "src/assets/menu/drinks/refresher/mango_sunset_refresher.png"
   },
   {
@@ -392,7 +392,7 @@
       "ingredients": ["Milk", "Ice", "Matcha Powder", "Whipped Cream"],
       "allergens": ["Milk"],
       "calories": 290,
-      "tags": ["matcha", "green_tea", "refreshing"],
+      "tags": ["matcha", "green_tea"],
       "image": "src/assets/menu/drinks/frappe/matcha.png"
   },
   {
@@ -463,7 +463,7 @@
       "ingredients": ["Green Tea", "Ice", "Water", "Honey (optional)"],
       "allergens": [],
       "calories": 50,
-      "tags": ["green_tea", "refreshing", "healthy"],
+      "tags": ["refreshing", "healthy"],
       "image": "src/assets/menu/drinks/tea/iced_green.png"
   },
   {
@@ -522,11 +522,10 @@
       "tags": ["blue", "herbal", "unique"],
       "image": "src/assets/menu/drinks/tea/blue_butterfly_pea.png"
   },
-
   {
     "id": 38,
     "name": "Hot Chocolate",
-    "category": "Refresher",
+    "category": "Non-coffee",
     "price": 140,
     "currency": "PHP",
     "description": "A rich and creamy hot chocolate topped with velvety whipped cream — your cozy comfort in a cup.",
@@ -535,8 +534,79 @@
     "allergens": ["Milk"],
     "calories": 320,
     "tags": ["hot", "comfort", "chocolate"],
-    "image": "src/assets/menu/drinks/refresher/hot_chocolate.png"
+    "image": "src/assets/menu/drinks/non-coffee/hot_chocolate.png"
+  }, 
+  {
+      "id": 39,
+      "name": "Americano",
+      "category": "Coffee",
+      "price": 120,
+      "currency": "PHP",
+      "description": "A bold and smooth espresso-based drink diluted with hot water for a clean, classic coffee flavor.",
+      "flavor_profile": "Bold & Smooth",
+      "ingredients": ["Espresso", "Hot Water"],
+      "allergens": [],
+      "calories": 15,
+      "tags": ["hot", "coffee", "classic"],
+      "image": "src/assets/menu/drinks/coffee/americano.png"
+  },
+  {
+      "id": 40,
+      "name": "Matcha Strawberry Latte",
+      "category": "Coffee",
+      "price": 165,
+      "currency": "PHP",
+      "description": "A vibrant mix of earthy matcha and sweet strawberry layered beautifully over milk — a refreshing fusion of flavors.",
+      "flavor_profile": "Sweet & Earthy",
+      "ingredients": ["Matcha Powder", "Strawberry Syrup", "Milk", "Ice"],
+      "allergens": ["Milk"],
+      "calories": 210,
+      "tags": ["refreshing", "aesthetic"],
+      "image": "src/assets/menu/drinks/coffee/matcha_strawberry_latte.png"
+  },
+  {
+      "id": 41,
+      "name": "Salted Caramel Latte",
+      "category": "Coffee",
+      "price": 155,
+      "currency": "PHP",
+      "description": "A creamy espresso latte with rich caramel sauce and a touch of sea salt for the perfect balance of sweet and savory.",
+      "flavor_profile": "Sweet & Salty",
+      "ingredients": ["Espresso", "Milk", "Caramel Syrup", "Sea Salt"],
+      "allergens": ["Milk"],
+      "calories": 280,
+      "tags": ["hot", "caramel", "comfort"],
+      "image": "src/assets/menu/drinks/coffee/salted_caramel_latte.png"
+  },
+  {
+      "id": 42,
+      "name": "Spanish Latte",
+      "category": "Coffee",
+      "price": 160,
+      "currency": "PHP",
+      "description": "A velvety espresso latte blended with condensed milk — smooth, rich, and perfectly sweet.",
+      "flavor_profile": "Rich & Sweet",
+      "ingredients": ["Espresso", "Milk", "Condensed Milk"],
+      "allergens": ["Milk"],
+      "calories": 260,
+      "tags": ["creamy", "sweet", "popular"],
+      "image": "src/assets/menu/drinks/coffee/Spanish_Latte.jpg"
+  },
+  {
+      "id": 43,
+      "name": "White Mocha",
+      "category": "Coffee",
+      "price": 165,
+      "currency": "PHP",
+      "description": "A silky espresso-based drink with smooth white chocolate sauce and steamed milk for a luxurious taste.",
+      "flavor_profile": "Sweet & Creamy",
+      "ingredients": ["Espresso", "White Chocolate Sauce", "Milk"],
+      "allergens": ["Milk"],
+      "calories": 310,
+      "tags": ["hot", "creamy", "chocolate"],
+      "image": "src/assets/menu/drinks/coffee/White_Mocha.jpg"
   }
+
 ]
 
 

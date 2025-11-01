@@ -58,17 +58,17 @@
   },
   {
     "id": 5,
-    "name": "Iced Hibiscus Tea",
-    "category": "Tea",
-    "price": 130,
-    "currency": "PHP",
-    "description": "Floral and fruity iced tea made with hibiscus petals and lemon zest.",
-    "flavor_profile": "Floral & Refreshing",
-    "ingredients": ["Hibiscus", "Lemon", "Water", "Sugar"],
-    "allergens": [],
-    "calories": 70,
-    "tags": ["cold", "refreshing", "fruity"],
-    "image": "src/assets/menu/drinks/tea/iced_hibiscus.png"
+    "name": "White Matcha Latte",
+  "category": "Tea",
+  "price": 180,
+  "currency": "PHP",
+  "description": "A creamy and smooth latte made with premium white matcha, offering a delicate, sweet grass flavor without the intensity of traditional matcha.",
+  "flavor_profile": "Creamy & Delicate",
+  "ingredients": ["White Matcha Powder", "Milk", "Water", "Vanilla Syrup"],
+  "allergens": ["Milk"],
+  "calories": 150,
+  "tags": ["hot", "creamy", "calming"],
+  "image": "src/assets/menu/drinks/coffee/white_matcha_latte.png"
   },
   {
     "id": 6,
@@ -286,7 +286,7 @@
   {
     "id": 21,
     "name": "Citrus Honey Sparkle",
-    "category": "Refreshers",
+    "category": "Refresher",
     "price": 120,
     "currency": "PHP",
     "description": "Fresh calamansi and lemon blend with wild honey, served over sparkling water for a light and zesty finish.",
@@ -300,7 +300,7 @@
   {
     "id": 22,
     "name": "Strawberry Lychee Fizz",
-    "category": "Refreshers",
+    "category": "Refresher",
     "price": 135,
     "currency": "PHP",
     "description": "Real strawberry purée and lychee nectar blended with sparkling water for a fruity and floral fizz.",
@@ -314,7 +314,7 @@
   {
     "id": 23,
     "name": "Cucumber Mint Cooler",
-    "category": "Refreshers",
+    "category": "Refresher",
     "price": 115,
     "currency": "PHP",
     "description": "Crisp cucumber juice and fresh mint with a squeeze of lime, served ice-cold for a clean, detox-like refreshment.",
@@ -328,7 +328,7 @@
   {
     "id": 24,
     "name": "Mango Sunset Refresher",
-    "category": "Refreshers",
+    "category": "Refresher",
     "price": 130,
     "currency": "PHP",
     "description": "Sweet mango and pineapple blend with a hint of citrus, layered to create a golden tropical sunset effect.",
@@ -342,7 +342,7 @@
   {
     "id": 25,
     "name": "Passionfruit Basil Refresher",
-    "category": "Refreshers",
+    "category": "Refresher",
     "price": 135,
     "currency": "PHP",
     "description": "Tangy passionfruit with muddled Thai basil and tonic-style sparkle for a bold but elegant refreshment.",
@@ -590,23 +590,8 @@
       "allergens": ["Milk"],
       "calories": 260,
       "tags": ["creamy", "sweet", "popular"],
-      "image": "src/assets/menu/drinks/coffee/Spanish_Latte.jpg"
-  },
-  {
-      "id": 43,
-      "name": "White Mocha",
-      "category": "Coffee",
-      "price": 165,
-      "currency": "PHP",
-      "description": "A silky espresso-based drink with smooth white chocolate sauce and steamed milk for a luxurious taste.",
-      "flavor_profile": "Sweet & Creamy",
-      "ingredients": ["Espresso", "White Chocolate Sauce", "Milk"],
-      "allergens": ["Milk"],
-      "calories": 310,
-      "tags": ["hot", "creamy", "chocolate"],
-      "image": "src/assets/menu/drinks/coffee/White_Mocha.jpg"
+      "image": "src/assets/menu/drinks/coffee/spanish_latte.png"
   }
-
 ]
 
 

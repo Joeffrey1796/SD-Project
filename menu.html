@@ -56,22 +56,25 @@
   </section>
 
   <!-- Menu Grid -->
-
   <section class="menu-grid" id="menu-grid">
     <!-- Items dynamically loaded here -->
   </section>
 
-  <!-- Todo Back to top -->
-  <!-- Footer -->
+  <!-- Back to top -->
+   <section>
+    <button id="backToTop" class="back-to-top">🠝</button>
+   </section>
 
+  <!-- Footer -->
   <footer class="footer">
-    <p>© 2025 Mga masarap na kape nila Princess®. For educational use only.</p>
+    <p>&copy; 2025 Sideway’s Cafe | Crafted with ❤️ for coffee lovers.</p>
   </footer>
 
   <script src="src/js/main.js"></script>
   <script src="src/js/menu.js"></script>
+  <script src="src/js/back_to_top.js"></script>
   <script>
-    // Initialize the menu once the DOM is fully loaded
+    // Initialize the menu
     document.addEventListener("DOMContentLoaded", () => {
       loadMenuItems();
     });

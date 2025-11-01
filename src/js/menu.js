@@ -1,11 +1,6 @@
 //? Debug
 console.log("menu.js opens cuhh");
 
-/* =============================
-   Starbrew Coffee - menu.js
-   Provides a global loadMenuItems() that fetches menu.json,
-   renders cards, and wires search/filter/modal behavior.
-   ============================= */
 
 /*
   Usage:
@@ -187,8 +182,8 @@ console.log("menu.js opens cuhh");
       }
       .close-btn {
         position: absolute;
-        top: 10px;
-        right: 14px;
+        top: 0px;
+        right: 8px;
         font-size: 2.0rem;
         background: none;
         border: none;

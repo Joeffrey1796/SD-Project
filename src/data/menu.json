@@ -112,23 +112,21 @@
     "tags": ["baked", "sweet"],
     "image": "src/assets/menu/pastries/blueberry_muffin.png"
   },
-  {
-    "id": 9,
-    "name": "Mocha Frappuccino",
-    "category": "Frappuccino",
-    "price": 180,
-    "currency": "PHP",
-    "description": "A blend of coffee, milk, and rich chocolate, topped with whipped cream.",
-    "flavor_profile": "Chocolatey & Creamy",
-    "ingredients": ["Coffee", "Milk", "Chocolate Syrup", "Whipped Cream"],
-    "allergens": ["Milk"],
-    "calories": 280,
-    "tags": ["cold", "sweet", "blended"],
-    "image": "src/assets/menu/drinks/frappe/mocha.png"
-  },
+  
+
+
+
+
+
+
+
+
+
+
+  
   {
     "id": 10,
-    "name": "Vanilla Cream Frappuccino",
+    "name": "Vanilla Cream Frappe",
     "category": "Frappuccino",
     "price": 175,
     "currency": "PHP",
@@ -155,20 +153,20 @@
     "tags": ["classic", "breakfast", "buttery"],
     "image": "src/assets/menu/pastries/butter_croissant.png"
   },
-  {
-    "id": 12,
-    "name": "Chocolate Croissant",
-    "category": "Pastry",
-    "price": 120,
-    "currency": "PHP",
-    "description": "Flaky croissant filled with rich, melted chocolate.",
-    "flavor_profile": "Sweet & Chocolaty",
-    "ingredients": ["Flour", "Butter", "Chocolate", "Milk", "Egg"],
-    "allergens": ["Gluten", "Milk", "Egg"],
-    "calories": 310,
-    "tags": ["sweet", "chocolate", "classic"],
-    "image": "src/assets/menu/pastries/chocolate_croissant.png"
-  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     "id": 13,
     "name": "Cinnamon Roll",

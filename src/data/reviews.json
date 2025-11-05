@@ -1,32 +1,107 @@
 [
             {
                 "id": 1,
-                "name": "Sarah Johnson",
+                "name": "Aeron John Ramos",
                 "review": "The coffee here is absolutely amazing! The atmosphere is cozy and perfect for working or catching up with friends. I especially love their seasonal latte flavors. The baristas are always friendly and remember my usual order. Highly recommend the caramel macchiato!"
             },
             {
                 "id": 2,
-                "name": "Michael Chen",
+                "name": "Janssen Ponce",
                 "review": "As a coffee connoisseur, I'm very particular about my brew. This place never disappoints. Their beans are ethically sourced and freshly roasted. The pour-over coffee is consistently excellent. The only downside is that it can get quite busy during peak hours."
             },
             {
                 "id": 3,
-                "name": "Emma Rodriguez",
+                "name": "Gabby Gatchalian",
                 "review": "I come here every Sunday morning with my laptop. The Wi-Fi is reliable, the seating is comfortable, and the coffee is top-notch. Their pastries are delicious too - the almond croissant is to die for! The staff is always welcoming and creates a warm, inviting environment."
             },
             {
                 "id": 4,
-                "name": "David Thompson",
+                "name": "Jamaicah Banggit",
                 "review": "Found this gem while exploring the neighborhood. The cold brew is smooth and not bitter at all. I appreciate that they offer alternative milk options without extra charge. The interior design is modern yet cozy with plenty of natural light. Will definitely be returning!"
             },
             {
                 "id": 5,
-                "name": "Olivia Parker",
+                "name": "Andrea Dela Cruz",
                 "review": "The best espresso in town! I've tried coffee from dozens of places, but none compare to the rich, flavorful shots they pull here. The crema is perfect every time. The owner is passionate about coffee and it shows in every cup. A true hidden treasure!"
             },
             {
                 "id": 6,
-                "name": "James Wilson",
+                "name": "Laurice Molata",
                 "review": "Great spot for meetings or solo work sessions. The background music is at just the right volume, and there are plenty of power outlets. The coffee is consistently good, and I love their loyalty program. After 10 purchases, you get a free drink of your choice!"
+            },
+            {
+                "id": 7,
+                "name": "Maria Santos",
+                "review": "The perfect start to my day! Their kapeng barako blend is strong and aromatic, just how I like it. The staff always greets me with a smile, making me feel right at home. This is my favorite neighborhood coffee shop."
+            },
+            {
+                "id": 8,
+                "name": "Juan Dela Cruz",
+                "review": "A solid spot for a quick caffeine fix. The Americano is robust and never bitter. I also appreciate that their prices are very reasonable compared to other specialty coffee places in the area."
+            },
+            {
+                "id": 9,
+                "name": "Sofia Reyes",
+                "review": "I'm obsessed with their ube latte! It's a unique and delicious flavor that reminds me of home. The sweetness is just right, not overwhelming. It's become my new go-to treat after a long week."
+            },
+            {
+                "id": 10,
+                "name": "Luis Garcia",
+                "review": "An excellent place to focus. I'm a graduate student and I spend hours here studying. The chairs are comfortable, the coffee is top-quality, and the ambient noise is just the right level for concentration."
+            },
+            {
+                "id": 11,
+                "name": "Isabella Torres",
+                "review": "Their pastries are fantastic, especially the ensaymada! It's so soft, buttery, and cheesy. Paired with a flat white, it's the ultimate afternoon snack. Highly recommend trying their local baked goods."
+            },
+            {
+                "id": 12,
+                "name": "Miguel Lopez",
+                "review": "The cold brew is incredibly smooth and refreshing, perfect for our warm weather. I love that they serve it with a slice of lemon. The service is fast and efficient, even when they have a long line."
+            },
+            {
+                "id": 13,
+                "name": "Elena Mendoza",
+                "review": "What a charming little cafe! The decor is so tasteful and instagram-worthy. I had a mocha that was rich and chocolatey without being too sweet. A wonderful place to relax and read a book."
+            },
+            {
+                "id": 14,
+                "name": "Antonio Bautista",
+                "review": "As someone who works in the service industry, I really appreciate the exceptional customer service here. The baristas are knowledgeable and can expertly recommend a drink based on your preferences. The espresso tonic is a must-try!"
+            },
+            {
+                "id": 15,
+                "name": "Carmela Lim",
+                "review": "I hosted a small meet-up here and the staff was incredibly accommodating. They helped us push tables together and kept our coffee cups full. The space is cozy and the quality of the drinks is consistently excellent."
+            },
+            {
+                "id": 16,
+                "name": "Gabriel Cruz",
+                "review": "Best iced coffee I've had in a long time! It's strong and flavorful, not watered down like at other chains. The simple syrup they use is perfect. I find myself stopping by almost every day on my way to work."
+            },
+            {
+                "id": 17,
+                "name": "Andrea Villanueva",
+                "review": "A peaceful oasis in the city. I love sitting by the window with a cup of their mint tea (their non-coffee options are great too!) and just watching the world go by. It's my favorite spot for some quiet 'me time'."
+            },
+            {
+                "id": 18,
+                "name": "Ramon Silva",
+                "review": "I'm very impressed with their sourcing. Knowing that they support local coffee farmers makes me feel good about my purchase. The taste is exceptional, and you can really tell the difference in quality. More power to this cafe!"
+            },
+            {
+                "id": 19,
+                "name": "Corazon Aquino",
+                "review": "The barista remembered my name on my second visit! That small gesture really made my day. The cafe has such a warm, community feel. The matcha latte is also one of the best I've tasted."
+            },
+            {
+                "id": 20,
+                "name": "Josefino Marcelo",
+                "review": "A no-frills coffee shop that focuses on what's important: great coffee. The brew is consistently excellent, the place is always clean, and the service is quick. It's my reliable spot for a perfect cup of black coffee."
+            },
+            {
+                "id": 21,
+                "name": "Lourdes Santiago",
+                "review": "My book club meets here every month and we love it. The staff never rushes us, even when we stay for hours. The variety of drinks and light snacks is perfect for our group. We feel so welcome every time."
             }
 ]

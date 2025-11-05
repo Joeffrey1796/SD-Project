@@ -1,43 +1,32 @@
 [
-  {
-    "name": "Alyssa M.",
-    "rating": 5,
-    "review": "The cappuccino was so smooth and comforting! The cozy ambiance made my morning.",
-    "date": "2025-09-18"
-  },
-  {
-    "name": "Rico S.",
-    "rating": 4,
-    "review": "Tried the caramel macchiato — sweet but balanced. Loved the latte art!",
-    "date": "2025-09-22"
-  },
-  {
-    "name": "Mika M.",
-    "rating": 5,
-    "review": "Perfect spot to relax. The aroma alone makes you want to stay longer.",
-    "date": "2025-10-02"
-  },
-  {
-    "name": "Dave",
-    "rating": 4,
-    "review": "Yummerz.",
-    "date": "2025-02-12"
-  },
-  {
-    "name": "Sarah C.",
-    "rating": 5,
-    "review": "Friendly baristas and smooth iced mocha! Great vibes all around.",
-    "date": "2025-10-20"
-  },{
-    "name": "Princess Ann",
-    "rating": 5,
-    "review": "Kasing sarap niya yung kape",
-    "date": "2025-10-28"
-
-  },{
-    "name": "Jake T.",
-    "rating": 4,
-    "review": "Espresso was rich and bold. Definitely coming back for more.",
-    "date": "2025-10-12"
-  }
+            {
+                "id": 1,
+                "name": "Sarah Johnson",
+                "review": "The coffee here is absolutely amazing! The atmosphere is cozy and perfect for working or catching up with friends. I especially love their seasonal latte flavors. The baristas are always friendly and remember my usual order. Highly recommend the caramel macchiato!"
+            },
+            {
+                "id": 2,
+                "name": "Michael Chen",
+                "review": "As a coffee connoisseur, I'm very particular about my brew. This place never disappoints. Their beans are ethically sourced and freshly roasted. The pour-over coffee is consistently excellent. The only downside is that it can get quite busy during peak hours."
+            },
+            {
+                "id": 3,
+                "name": "Emma Rodriguez",
+                "review": "I come here every Sunday morning with my laptop. The Wi-Fi is reliable, the seating is comfortable, and the coffee is top-notch. Their pastries are delicious too - the almond croissant is to die for! The staff is always welcoming and creates a warm, inviting environment."
+            },
+            {
+                "id": 4,
+                "name": "David Thompson",
+                "review": "Found this gem while exploring the neighborhood. The cold brew is smooth and not bitter at all. I appreciate that they offer alternative milk options without extra charge. The interior design is modern yet cozy with plenty of natural light. Will definitely be returning!"
+            },
+            {
+                "id": 5,
+                "name": "Olivia Parker",
+                "review": "The best espresso in town! I've tried coffee from dozens of places, but none compare to the rich, flavorful shots they pull here. The crema is perfect every time. The owner is passionate about coffee and it shows in every cup. A true hidden treasure!"
+            },
+            {
+                "id": 6,
+                "name": "James Wilson",
+                "review": "Great spot for meetings or solo work sessions. The background music is at just the right volume, and there are plenty of power outlets. The coffee is consistently good, and I love their loyalty program. After 10 purchases, you get a free drink of your choice!"
+            }
 ]

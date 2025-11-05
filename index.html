@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sideway's cafe</title>
   <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="stylesheet" href="src/css/pages/index.css" />
   <link rel="icon" type="image/jpg" href="src/assets/logo.jpg" />
 </head>
 <body>
@@ -12,7 +13,7 @@
   <header>
     <div class="navbar">
       <div class="logo">
-        <a href="index.html">Sideway's Cafe</a>
+        <a href="page">Sideway's Cafe</a>
       </div>
 
       <!-- Hamburger Button -->
@@ -75,14 +76,30 @@
 
   <!-- Highlighted Review section -->
   <section class="reviews-section">
-    <h2 class="reviews-title">What Our Customers Say</h2>
-    <div class="reviews-carousel-container">
-      <button class="carousel-btn prev" aria-label="Previous review">❮</button>
-      <div class="reviews-carousel" id="reviews-carousel">
-        <!--* Reviews dynamically loaded here -->
+      <h2 class="section-title">Customer Reviews</h2>
+      
+      <div class="carousel-container">
+          <div class="carousel-track" id="carouselTrack">
+              <!-- Review cards will be dynamically inserted here -->
+          </div>
       </div>
-      <button class="carousel-btn next" aria-label="Next review">❯</button>
-    </div>
+      
+      <div class="carousel-nav">
+          <button class="nav-btn prev-btn" id="prevBtn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </button>
+          <button class="nav-btn next-btn" id="nextBtn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </button>
+      </div>
+      
+      <div class="carousel-indicators" id="indicators">
+          <!-- Indicators will be dynamically inserted here -->
+      </div>
   </section>
 
 
@@ -104,6 +121,15 @@
 <footer class="footer">
   <p>&copy; 2025 Sideway’s Cafe | Crafted with ❤️ for coffee lovers</p>
 </footer>
+
+<!-- Modal for full review -->
+  <div class="modal" id="reviewModal">
+      <div class="modal-content">
+          <button class="modal-close" id="modalClose">&times;</button>
+          <h3 class="modal-name" id="modalName"></h3>
+          <p class="modal-review" id="modalReview"></p>
+      </div>
+  </div>
 
 <!-- Script -->
   <script src="src/js/reviews.js"></script>

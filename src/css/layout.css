@@ -1,4 +1,4 @@
-/* ===== FOOTER ===== */
+/* ===== NAVBAR ===== */
 
 .navbar {
   max-width: 1200px;
@@ -7,6 +7,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+
+}
+
+.logo img {
+  height: 40px; 
+  width: 50px;
+  padding-right: 10px;
 }
 
 .logo a {

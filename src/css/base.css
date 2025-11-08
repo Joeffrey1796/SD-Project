@@ -3,13 +3,13 @@
   --color-primary: hsl(28 35% 50%);           /* Coffee brown */
   --color-secondary: hsl(25 40% 20%);         /* Deep espresso */
   --color-accent: hsl(25 45% 65%);            /* Creamy beige accent */
-  --color-bg: hsl(36 10% 96%);                /* Soft cream background */
+  --color-bg: hsl(38, 50%, 96%);                /* Soft cream background */
   --color-text: hsl(25 40% 20%);              /* Dark brown text */
   --color-light: hsl(36 50% 98%);             /* Off-white cards and highlights */
   --color-muted: hsl(31, 14%, 35%);             /* Subtle muted sections */
   --color-border: hsl(30 25% 85%);            /* Light border tone */
   --color-ring: hsl(28 35% 50%);              /* Accent ring color */
-  --nav-bar-bg:  hsl(38, 30%, 93%);
+  --nav-bar-bg:  hsl(38, 50%, 96%);
 
   --font-main: 'Poppins', sans-serif;
   --transition-fast: 0.3s ease;
@@ -43,7 +43,7 @@ a { text-decoration: none; color: inherit; }
 /* ===== NAVBAR ===== */
 header {
   width: 100%;
-  background: var(--color-bg);
+  background: var(--nav-bar-bg);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;

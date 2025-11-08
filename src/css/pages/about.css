@@ -10,6 +10,25 @@
   background-color: #fff;
 }
 
+.hero-content {
+  width: 60%;
+}
+
+.hero-content p {
+  padding: 1.5rem;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+}
+
+@media (max-width: 768px){
+  .hero-content {
+    width: 90%;
+  }
+}
+
 .about-content .container {
   max-width: 800px;
   margin: 0 auto;

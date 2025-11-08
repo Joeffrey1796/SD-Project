@@ -19,6 +19,9 @@ padding: 2rem;
 font-size: 2.5rem;
 margin-bottom: 1rem;
 text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+font-weight:900;
+/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+font-family: sans-serif;
 }
 
 .hero p {

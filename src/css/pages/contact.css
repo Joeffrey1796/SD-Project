@@ -1,4 +1,60 @@
 
+.operating-hours {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.operating-card {
+  background: #f8f8f8;
+  border-radius: 1.5rem;
+  padding: 3rem 4rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  max-width: 600px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.operating-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.operating-card h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-accent-dark);
+}
+
+.operating-card p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+@media (max-width: 600px) {
+
+  .operating-hours{
+    padding-bottom: 0%;
+  }
+  .operating-card {
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+
+  .operating-card h2 {
+    font-size: 1.6rem;
+  }
+
+  .operating-card p {
+    font-size: 1.2rem;
+  }
+}
+
+
+
 .contact-info {
   background-color: #fff;
   padding: 60px 20px;
